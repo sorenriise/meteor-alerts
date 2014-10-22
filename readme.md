@@ -1,7 +1,7 @@
 # Meteor Alerts #
 
-1) Add the `alert` template to your app
-2) Trigger a success alert with `Alert.success('You created a post!')`
+1. Add the `alert` template to your app
+2. Trigger a success alert with `Alert.success('You created a post!')`
 
 Remove alerts with 
 
