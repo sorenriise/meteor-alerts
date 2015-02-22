@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Standarize alerts across your app",
-  version: "0.0.2",
-  git: "http://github.com/yogiben/meteor-alerts.git"
+  version: "0.0.3",
+  git: "http://github.com/sorenriise/meteor-alerts.git"
 });
 
 both = ['client','server']
@@ -29,6 +29,6 @@ Package.onUse(function(api) {
   	],
   	'client')
 
-  api.export('Alert','client')
+  api.export('Alert',both)
 
 });
