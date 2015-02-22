@@ -24,7 +24,7 @@ Package.onUse(function(api) {
   		'lib/client/templates.jade',
       'lib/client/templates.coffee',
       'lib/client/templates.less',
-      'lib/client/alerts.coffee'
+      'lib/alerts.coffee'
 
   	],
   	'client')
