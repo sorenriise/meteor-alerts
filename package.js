@@ -24,10 +24,16 @@ Package.onUse(function(api) {
   		'lib/client/templates.jade',
       'lib/client/templates.coffee',
       'lib/client/templates.less',
-      'lib/alerts.coffee'
 
   	],
   	'client')
+
+   api.addFiles(
+  	[
+      'lib/alerts.coffee'
+
+  	],
+  	both)
 
   api.export('Alert',both)
 
