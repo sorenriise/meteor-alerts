@@ -1,5 +1,7 @@
 # Meteor Alerts #
 
+This is a clone to make it server side available
+
 1. Add the `alert` template to your app
 2. Trigger a success alert with `Alert.success('You created a post!')`
 
